@@ -1,2 +1,2 @@
-# Cyberlabs Security Research Project
+# Cyberlabs Security Research
 ## Security Research
