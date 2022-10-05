@@ -75,7 +75,6 @@ program instructions live here
 
     so now if you wanted to use the name, instead of typing it , you use $NAME and everywhere
     $NAME appears, it would be substituted by "Jonathan Bartlett
-
 # Instructions and Arithmetic
 ## movl
 
@@ -86,8 +85,6 @@ program instructions live here
 ## subl
 
     subl SRC, DEST - sub SRC from DEST, store results in DEST
-
-
 ## Comparison instructions
 **cmpl**
 
@@ -153,7 +150,6 @@ did not, it would be direct addressing mode, in which case the value located at 
 **location 12** would be loaded into **%eax** rather than the number 12 itself.
 
 # Commandline Arguments
-
 This description is valid for Linux 32 bit: When a Linux program begins, all pointers to command-line arguments are stored on the stack. The number of arguments is stored at **0(%ebp)**, the name of the program is stored at **4(%ebp)**, and the arguments are stored from **8(%ebp)**.
 
 1. [Writing an X86–64 Assembly Language Program - Part III: Printing Command Line Arguments](https://blog.devgenius.io/writing-an-x86-64-assembly-language-program-648b6005e8e)
