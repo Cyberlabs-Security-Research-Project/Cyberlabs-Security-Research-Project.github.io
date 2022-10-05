@@ -155,9 +155,13 @@ did not, it would be direct addressing mode, in which case the value located at 
 # Commandline Arguments
 
 This description is valid for Linux 32 bit: When a Linux program begins, all pointers to command-line arguments are stored on the stack. The number of arguments is stored at **0(%ebp)**, the name of the program is stored at **4(%ebp)**, and the arguments are stored from **8(%ebp)**.
+
 1. [Writing an X86–64 Assembly Language Program - Part III: Printing Command Line Arguments](https://blog.devgenius.io/writing-an-x86-64-assembly-language-program-648b6005e8e)
+
 2. [Stack Overflow - Linux 64 command line parameters in Assembly](https://stackoverflow.com/questions/3683144/linux-64-command-line-parameters-in-assembly?answertab=trending#tab-top)
+
 3. [How do I get filename, file handling in assembly](https://stackoverflow.com/questions/18945881/how-do-i-get-filename-file-handling-in-assembly)
+
 4. [Reading from a file in assembly](https://stackoverflow.com/questions/3347747/reading-from-a-file-in-assembly)
 
 # Functions
