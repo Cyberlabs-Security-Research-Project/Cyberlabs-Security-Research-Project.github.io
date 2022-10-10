@@ -1,3 +1,16 @@
-site_name: Cyberlabs Security Research Project
+site_name: CSRP
 theme:
+  language: en
   name: material
+  features:
+    - navigation.tabs
+  logo: assets/logo.png
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: light green
+    
+copyright: Copyright &copy; 2022 Calvin Kimani
+
+extra:
+  generator: false
